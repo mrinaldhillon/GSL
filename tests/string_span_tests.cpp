@@ -16,10 +16,10 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, TEST_...
 
-#include <gsl/gsl_assert>  // for Expects, fail_fast (ptr only)
-#include <gsl/pointers>    // for owner
-#include <gsl/span>        // for span, dynamic_extent
-#include <gsl/string_span> // for basic_string_span, operator==, ensure_z
+#include <gsl/gsl_assert.h>  // for Expects, fail_fast (ptr only)
+#include <gsl/pointers.h>    // for owner
+#include <gsl/span.h>        // for span, dynamic_extent
+#include <gsl/string_span.h> // for basic_string_span, operator==, ensure_z
 
 #include <algorithm>   // for move, find
 #include <cstddef>     // for size_t

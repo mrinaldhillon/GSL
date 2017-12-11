@@ -16,7 +16,7 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, TEST_...
 
-#include <gsl/pointers> // for not_null, operator<, operator<=, operator>
+#include <gsl/pointers.h> // for not_null, operator<, operator<=, operator>
 
 #include <algorithm> // for addressof
 #include <memory>    // for shared_ptr, make_shared, operator<, opera...

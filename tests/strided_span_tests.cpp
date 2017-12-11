@@ -16,9 +16,9 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, CHECK...
 
-#include <gsl/gsl_byte>   // for byte
-#include <gsl/gsl_util>   // for narrow_cast
-#include <gsl/multi_span> // for strided_span, index, multi_span, strided_...
+#include <gsl/gsl_byte.h>   // for byte
+#include <gsl/gsl_util.h>   // for narrow_cast
+#include <gsl/multi_span.h> // for strided_span, index, multi_span, strided_...
 
 #include <iostream>    // for size_t
 #include <iterator>    // for begin, end

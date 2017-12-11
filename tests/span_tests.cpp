@@ -16,9 +16,9 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, TEST_...
 
-#include <gsl/gsl_byte> // for byte
-#include <gsl/gsl_util> // for narrow_cast, at
-#include <gsl/span>     // for span, span_iterator, operator==, operator!=
+#include <gsl/gsl_byte.h> // for byte
+#include <gsl/gsl_util.h> // for narrow_cast, at
+#include <gsl/span.h>     // for span, span_iterator, operator==, operator!=
 
 #include <array>       // for array
 #include <iostream>    // for ptrdiff_t

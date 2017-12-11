@@ -17,13 +17,13 @@
 #ifndef GSL_GSL_H
 #define GSL_GSL_H
 
-#include <gsl/gsl_algorithm> // copy
-#include <gsl/gsl_assert>    // Ensures/Expects
-#include <gsl/gsl_byte>      // byte
-#include <gsl/gsl_util>      // finally()/narrow()/narrow_cast()...
-#include <gsl/multi_span>    // multi_span, strided_span...
-#include <gsl/pointers>      // owner, not_null
-#include <gsl/span>          // span
-#include <gsl/string_span>   // zstring, string_span, zstring_builder...
+#include <gsl/gsl_algorithm.h> // copy
+#include <gsl/gsl_assert.h>    // Ensures/Expects
+#include <gsl/gsl_byte.h>      // byte
+#include <gsl/gsl_util.h>      // finally()/narrow()/narrow_cast()...
+#include <gsl/multi_span.h>    // multi_span, strided_span...
+#include <gsl/pointers.h>      // owner, not_null
+#include <gsl/span.h>          // span
+#include <gsl/string_span.h>   // zstring, string_span, zstring_builder...
 
 #endif // GSL_GSL_H

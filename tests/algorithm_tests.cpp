@@ -16,8 +16,8 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, CHE...
 
-#include <gsl/gsl_algorithm> // for copy
-#include <gsl/span>          // for span
+#include <gsl/gsl_algorithm.h> // for copy
+#include <gsl/span.h>          // for span
 
 #include <array>   // for array
 #include <cstddef> // for size_t

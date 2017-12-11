@@ -16,7 +16,7 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK_THROW...
 
-#include <gsl/gsl_util> // for at
+#include <gsl/gsl_util.h> // for at
 
 #include <array>            // for array
 #include <cstddef>          // for size_t

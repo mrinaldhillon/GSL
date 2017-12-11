@@ -17,8 +17,8 @@
 #ifndef GSL_ALGORITHM_H
 #define GSL_ALGORITHM_H
 
-#include <gsl/gsl_assert> // for Expects
-#include <gsl/span>       // for dynamic_extent, span
+#include <gsl/gsl_assert.h> // for Expects
+#include <gsl/span.h>       // for dynamic_extent, span
 
 #include <algorithm>   // for copy_n
 #include <cstddef>     // for ptrdiff_t

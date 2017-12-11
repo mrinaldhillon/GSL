@@ -17,9 +17,9 @@
 #ifndef GSL_SPAN_H
 #define GSL_SPAN_H
 
-#include <gsl/gsl_assert> // for Expects
-#include <gsl/gsl_byte>   // for byte
-#include <gsl/gsl_util>   // for narrow_cast, narrow
+#include <gsl/gsl_assert.h> // for Expects
+#include <gsl/gsl_byte.h>   // for byte
+#include <gsl/gsl_util.h>   // for narrow_cast, narrow
 
 #include <algorithm> // for lexicographical_compare
 #include <array>     // for array

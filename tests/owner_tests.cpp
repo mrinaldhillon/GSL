@@ -16,7 +16,7 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, CHECK, TEST_...
 
-#include <gsl/pointers> // for owner
+#include <gsl/pointers.h> // for owner
 
 using namespace gsl;
 

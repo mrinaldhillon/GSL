@@ -16,7 +16,7 @@
 
 #include <catch/catch.hpp> // for AssertionHandler, StringRef, TEST_CASE
 
-#include <gsl/multi_span> // for static_bounds, static_bounds_dynamic_range_t
+#include <gsl/multi_span.h> // for static_bounds, static_bounds_dynamic_range_t
 
 #include <cstddef> // for ptrdiff_t, size_t
 
